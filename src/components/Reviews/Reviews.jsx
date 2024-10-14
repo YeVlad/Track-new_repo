@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import css from "./Reviews.module.css";
 import { selectTrack } from "../../redux/tracks/selectors";
 import StarRating from "../StarRating/StarRating";
+import sprite from "../../assets/sprite.svg";
 
 const Reviews = () => {
   const car = useSelector(selectTrack);
