@@ -116,6 +116,10 @@
   cursor: pointer;
 }
 
+.search_button:hover {
+  background: #d84343;
+}
+
 .icon {
   width: 32px;
   height: 32px;

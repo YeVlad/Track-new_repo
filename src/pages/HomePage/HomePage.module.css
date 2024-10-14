@@ -39,3 +39,7 @@
 
   cursor: pointer;
 }
+
+.button_to_catalog:hover {
+  background: #d84343;
+}
