@@ -1,0 +1,37 @@
+.header_styles {
+  padding: 0 64px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #f7f7f7;
+}
+
+.nav_styles {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: #101828;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.active {
+  color: #d84343;
+}
+
+.hidden_element {
+  visibility: hidden;
+}
+
+.logo {
+  width: 136px;
+  height: 16px;
+
+  margin: 28px 0;
+}

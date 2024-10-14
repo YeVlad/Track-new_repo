@@ -1,0 +1,27 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%; /* Задаємо висоту 100% для html та body */
+  margin: 0; /* Скидаємо стандартні відступи */
+  padding: 0; /* Скидаємо стандартні поля */
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  height: 100%; /* Задаємо висоту 100% для кореневого контейнера */
+  display: flex; /* Використовуємо flexbox для розміщення елементів */
+  flex-direction: column; /* Стовпчикове вирівнювання */
+}
+
+header {
+  flex: 0 0 auto; /* Задаємо фіксовану висоту для Header */
+}
+
+main {
+  flex: 1; /* Дозволяємо основному контенту займати все доступне місце */
+}

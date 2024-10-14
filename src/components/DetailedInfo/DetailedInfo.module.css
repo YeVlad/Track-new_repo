@@ -1,0 +1,28 @@
+.local_navigation {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #dadde1;
+  margin-bottom: 44px;
+}
+
+.subLink {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  padding-bottom: 24px;
+
+  color: #101828;
+
+  cursor: pointer;
+}
+
+.activeSubLink {
+  border-bottom: 4px solid #d84343;
+}
+
+.outlet_and_form {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

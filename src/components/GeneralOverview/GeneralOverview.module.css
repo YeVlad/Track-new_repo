@@ -1,0 +1,80 @@
+.car_name,
+.car_price {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.car_price {
+  margin-bottom: 28px;
+}
+
+.car_name {
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+
+.reviews_and_location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.map_icon,
+.star_icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.star_icon {
+  fill: #ffc531;
+}
+
+.map_icon {
+  fill: #101828;
+}
+
+.info {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 16px;
+}
+
+.photoes_collection {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin-bottom: 28px;
+}
+
+.car_photo {
+  width: 292px;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.car_description {
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-bottom: 60px;
+
+  color: #475467;
+}
+
+.underlined {
+  text-decoration: underline;
+}

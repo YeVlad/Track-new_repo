@@ -1,0 +1,67 @@
+.book_form {
+  padding: 44px 57px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  width: 641px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appeal {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #101828;
+
+  margin-bottom: 8px;
+}
+
+.mini_appeal {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6c717b;
+  margin-bottom: 24px;
+}
+
+.book_button {
+  margin-top: 8px;
+  font-weight: 500;
+  max-width: 166px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+  background: #e44848;
+  border: none;
+  padding: 16px 63px;
+  border-radius: 50px;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  margin: auto auto 0 auto;
+}
+
+.form_textarea,
+.form_field {
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #101828;
+  background: #f7f7f7;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 14px;
+}
+
+.form_textarea {
+  height: 118px;
+  resize: none;
+  margin-bottom: 24px;
+}

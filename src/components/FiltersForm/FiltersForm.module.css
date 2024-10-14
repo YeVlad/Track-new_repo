@@ -1,0 +1,151 @@
+.form_container {
+  width: 360px;
+}
+
+.location_label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 8px 0;
+  color: #6c717b;
+}
+
+.word_filters {
+  font-weight: 500;
+  margin: 0 0 32px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.word_equipment {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  border-bottom: 1px solid #dadde1;
+
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.filters_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox_group {
+  padding: 0;
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  user-select: none;
+
+  row-gap: 8px;
+  column-gap: 12px;
+
+  border: none;
+}
+
+.checkbox_input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+  &:checked + .checkbox_tile {
+    border-color: #e44848;
+    box-shadow: 0 5px 10px rgba(#000, 0.1);
+    &:before {
+      transform: scale(1);
+      opacity: 1;
+      background-color: #e44848;
+      border-color: #e44848;
+    }
+
+    .checkbox_icon {
+      color: #101828;
+    }
+  }
+}
+
+.checkbox_tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 96px;
+  border-radius: 0.5rem;
+  border: 1px solid #dadde1;
+  box-shadow: 0 5px 10px rgba(#000, 0.1);
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox_label {
+  color: #101828;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.search_button {
+  margin: 8px 0 52px 0;
+  font-weight: 500;
+  max-width: 166px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+  background: #e44848;
+  border: none;
+  padding: 20px 49px;
+  border-radius: 50px;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: #101828;
+  margin-bottom: 8px;
+}
+
+.location_div {
+  /* display: flex;
+  align-items: center; */
+  position: relative;
+}
+
+.map_field_icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+
+  top: 18px;
+  left: 20px;
+}
+
+.location_field {
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  height: 56px;
+  margin: 0 0 40px 0;
+
+  padding-left: 50px;
+  width: 100%;
+}
