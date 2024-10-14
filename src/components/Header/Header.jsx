@@ -1,12 +1,14 @@
 import { NavLink } from "react-router-dom";
 
+import sprite from "../../assets/sprite.svg";
+
 import css from "./Header.module.css";
 
 export const Header = () => {
   return (
     <header className={css.header_styles}>
       <svg className={css.logo}>
-        <use xlinkHref="/src/assets/sprite.svg#icon-Logo"></use>
+        <use href={`${sprite}#icon-Logo`}></use>
       </svg>
       <nav className={css.nav_styles}>
         <NavLink
@@ -24,7 +26,7 @@ export const Header = () => {
       </nav>
       <div className={css.hidden_element}>
         <svg className={css.logo}>
-          <use xlinkHref="/src/assets/sprite.svg#icon-Logo"></use>
+          <use href={`${sprite}#icon-Logo`}></use>
         </svg>
       </div>
     </header>

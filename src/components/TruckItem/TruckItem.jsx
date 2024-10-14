@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import css from "./TruckItem.module.css";
+import sprite from "../../assets/sprite.svg";
 
 import { changeLikes } from "../../redux/likes/slice";
 import { selectLikes } from "../../redux/likes/selectors";
@@ -42,20 +43,20 @@ const TruckItem = ({ car }) => {
                   isLiked ? [css.icon, css.liked_icon].join(" ") : css.icon
                 }
               >
-                <use xlinkHref="/src/assets/sprite.svg#icon-Property-1Default"></use>
+                <use href={`${sprite}#icon-Property-1Default`}></use>
               </svg>
             </button>
           </div>
         </div>
         <div className={css.reviews_and_location}>
           <svg className={css.star_icon}>
-            <use xlinkHref="/src/assets/sprite.svg#icon-star"></use>
+            <use href={`${sprite}#icon-star`}></use>
           </svg>
           <p className={css.info}>
             {car.rating}({car.reviews.length} Reviews)
           </p>
           <svg className={css.map_icon}>
-            <use xlinkHref="/src/assets/sprite.svg#icon-map"></use>
+            <use href={`${sprite}#icon-map`}></use>
           </svg>
           <p className={css.info}>{car.location}</p>
         </div>
@@ -64,7 +65,7 @@ const TruckItem = ({ car }) => {
           {isAutomatic == "automatic" && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-diagram"></use>
+                <use href={`${sprite}#icon-diagram`}></use>
               </svg>
               <p className={css.feature_name}>Automatic</p>
             </li>
@@ -72,7 +73,7 @@ const TruckItem = ({ car }) => {
           {isPetrol == "petrol" && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-fuel-pump"></use>
+                <use href={`${sprite}#icon-fuel-pump`}></use>
               </svg>
               <p className={css.feature_name}>Petrol</p>
             </li>
@@ -80,7 +81,7 @@ const TruckItem = ({ car }) => {
           {isKitchen && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-cup-hot"></use>
+                <use href={`${sprite}#icon-cup-hot`}></use>
               </svg>
               <p className={css.feature_name}>Kitchen</p>
             </li>
@@ -88,7 +89,7 @@ const TruckItem = ({ car }) => {
           {isAC && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-wind"></use>
+                <use href={`${sprite}#icon-wind`}></use>
               </svg>
               <p className={css.feature_name}>AC</p>
             </li>
@@ -96,7 +97,7 @@ const TruckItem = ({ car }) => {
           {isRadio && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-ui-radios"></use>
+                <use href={`${sprite}#icon-ui-radios`}></use>
               </svg>
               <p className={css.feature_name}>Radio</p>
             </li>
@@ -104,7 +105,7 @@ const TruckItem = ({ car }) => {
           {isTV && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-tv"></use>
+                <use href={`${sprite}#icon-tv`}></use>
               </svg>
               <p className={css.feature_name}>TV</p>
             </li>
@@ -112,7 +113,7 @@ const TruckItem = ({ car }) => {
           {isBathroom && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-ph_shower"></use>
+                <use href={`${sprite}#icon-ph_shower`}></use>
               </svg>
               <p className={css.feature_name}>Bathroom</p>
             </li>
@@ -120,7 +121,7 @@ const TruckItem = ({ car }) => {
           {isRefrigerator && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-solar_fridge-outline"></use>
+                <use href={`${sprite}#icon-solar_fridge-outline`}></use>
               </svg>
               <p className={css.feature_name}>Refrigerator</p>
             </li>
@@ -128,7 +129,7 @@ const TruckItem = ({ car }) => {
           {isWater && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-bi_droplet"></use>
+                <use href={`${sprite}#icon-bi_droplet`}></use>
               </svg>
               <p className={css.feature_name}>Water</p>
             </li>
@@ -136,7 +137,7 @@ const TruckItem = ({ car }) => {
           {isGas && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-hugeicons_gas-stove"></use>
+                <use href={`${sprite}#icon-hugeicons_gas-stove`}></use>
               </svg>
               <p className={css.feature_name}>Gas</p>
             </li>
@@ -144,7 +145,7 @@ const TruckItem = ({ car }) => {
           {isMicrowave && (
             <li className={css.feature}>
               <svg className={css.feature_icon}>
-                <use xlinkHref="/src/assets/sprite.svg#icon-lucide_microwave"></use>
+                <use href={`${sprite}#icon-lucide_microwave`}></use>
               </svg>
               <p className={css.feature_name}>Microwave</p>
             </li>
