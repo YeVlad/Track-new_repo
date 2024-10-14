@@ -41,12 +41,7 @@ const FiltersForm = () => {
           </label>
           <div className={css.location_div}>
             <svg className={[css.icon, css.map_field_icon].join(" ")}>
-              {/* <use xlinkHref="../sprite/sprite.svg#icon-map"></use>{" "} */}
-              <use
-                href={`${
-                  new URL("../../assets/icons/sprite.svg", import.meta.url).href
-                }#icon-map`}
-              ></use>
+              <use href="../../assets/sprite.svg#icon-map"></use>
             </svg>
 
             <Field className={css.location_field} name="location" />
