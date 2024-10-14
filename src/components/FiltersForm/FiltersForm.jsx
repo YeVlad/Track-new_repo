@@ -58,7 +58,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-wind"></use>
+                    <use xlinkHref="./assets/sprite.svg#icon-wind"></use>
                   </svg>
                   <span className={css.checkbox_label}>AC</span>
                 </span>
@@ -73,7 +73,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-diagram"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-diagram"></use>
                   </svg>
                   <span className={css.checkbox_label}>Automatic</span>
                 </span>
@@ -88,7 +88,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-cup-hot"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-cup-hot"></use>
                   </svg>
                   <span className={css.checkbox_label}>Kitchen</span>
                 </span>
@@ -103,7 +103,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-tv"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-tv"></use>
                   </svg>
                   <span className={css.checkbox_label}>TV</span>
                 </span>
@@ -118,7 +118,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-ph_shower"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-ph_shower"></use>
                   </svg>
                   <span className={css.checkbox_label}>Bathroom</span>
                 </span>
@@ -138,7 +138,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-bi_grid-1x2"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-bi_grid-1x2"></use>
                   </svg>
                   <span className={css.checkbox_label}>Van</span>
                 </span>
@@ -154,7 +154,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-bi_grid"></use>
+                    <use xlinkHref="/assets/sprite.svg#icon-bi_grid"></use>
                   </svg>
                   <span className={css.checkbox_label}>Vully Integrated</span>
                 </span>
@@ -170,7 +170,7 @@ const FiltersForm = () => {
                 />
                 <span className={css.checkbox_tile}>
                   <svg className={css.icon}>
-                    <use xlinkHref="/src/assets/sprite.svg#icon-bi_grid-3x3-gap"></use>
+                    <use xlinkHref="s/assets/sprite.svg#icon-bi_grid-3x3-gap"></use>
                   </svg>
                   <span className={css.checkbox_label}>Alcove</span>
                 </span>
